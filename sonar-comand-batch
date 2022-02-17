@@ -1,0 +1,1 @@
+sonar-scanner.bat -D"sonar.organization=anastasiabrinati" -D"sonar.projectKey=AnastasiaBrinati_calcolatoreBinarioEsame" -D"sonar.sources=." -D"sonar.host.url=https://sonarcloud.io"

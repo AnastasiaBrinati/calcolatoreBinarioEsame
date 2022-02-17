@@ -78,6 +78,7 @@ public class BinaryCalculator {
             finalResult= c+finalResult;
         }
 
+        System.out.println("finalResult");
         return finalResult;
 
     }
