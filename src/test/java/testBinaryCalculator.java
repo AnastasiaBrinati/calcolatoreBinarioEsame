@@ -7,8 +7,8 @@ public class testBinaryCalculator {
 
     @Test
     void testBinarySum(){
-        String actual = BinaryCalculator.binarySum("110", "101");
-        String expected = "1011";
+        String actual = BinaryCalculator.binarySum("10", "11");
+        String expected = "101";
 
         assertEquals(expected, actual);
     }
