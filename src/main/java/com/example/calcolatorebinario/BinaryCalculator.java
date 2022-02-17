@@ -25,11 +25,7 @@ public class BinaryCalculator {
         for(int i=len; i>=0; i--){
             if(number1.charAt(i) == 0){
                 if(number2.charAt(i) == 0) {
-                    if (reminder == 1) {
-                        result.append(result + "1");
-                    } else {
-                        result.append(result + "0");
-                    }
+                    result.append(result + String.valueOf(reminder));
                     reminder = 0;
                 }else{
                     if (reminder == 1) {
@@ -53,18 +49,14 @@ public class BinaryCalculator {
                         reminder = 0;
                     }
                 }else{
-                    if (reminder == 1) {
-                        result.append(result + "1");
-                    } else {
-                        result.append(result + "0");
-                    }
+                    result.append(result + String.valueOf(reminder));
                     reminder = 1;
                 }
 
             }
         }
 
-        if(reminder == 1){
+        if(reminder != 0){
             result.append(result + "1");
         }
 
