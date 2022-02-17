@@ -13,11 +13,7 @@ public class BinaryString{
         if(sequence.startsWith("0")){
             sequence = sequence.substring(1);
         }
-        if(sequence.matches("[1(0|1)*]")){
-            return true;
-        }
-
-        return false;
+        return sequence.matches("[(0|1)*]");
     }
 
 }
