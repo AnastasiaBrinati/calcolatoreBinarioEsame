@@ -1,9 +1,11 @@
+package testing;
+
 import com.example.calcolatorebinario.BinaryCalculator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class testBinaryCalculator {
+public class TestBinaryCalculator {
 
     @Test
     void testBinarySum(){

@@ -2,6 +2,10 @@ package com.example.calcolatorebinario;
 
 public class BinaryCalculator {
 
+    private BinaryCalculator(){
+        //costruttore
+    }
+
     public static String binarySum(String number1, String number2){
 
         if(!BinaryString.isBinary(number1) && !BinaryString.isBinary(number2)){
